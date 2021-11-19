@@ -1,11 +1,50 @@
-header {
-  text-align: center;
-}
-
 main {
   text-align: center;
+  border: 5px solid rgb(44, 44, 44);
+  width: 800px;
+  margin: 200px auto 70px auto;
+  border-radius: 5px;
+  background-color: rgb(219, 108, 94);
+  box-shadow: 1px 1px 5px rgb(44, 44, 44);
+}
+
+main img {
+  width: 200px;
+  border-radius: 100px;
+  border: 5px solid rgb(44, 44, 44);
+  margin-top: -110px;
+}
+
+main h1 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(31, 25, 25);
+}
+
+main h1 span {
+  color: rgb(66, 2, 2);
+}
+
+main p {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(75, 59, 59);
 }
 
 footer {
   text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 24px;
+  color: rgb(83, 75, 75);
+  padding-bottom: 24px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(73, 29, 50);
+}
+
+footer a:hover,
+footer a:active {
+  text-decoration: underline;
 }
